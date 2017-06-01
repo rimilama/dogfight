@@ -2,11 +2,12 @@ package dogfight.view;
 import java.lang.*;
 import java.util.Observable;
 
-import dogfight.controller;
+import dogfight.controller.IOrderPerformer;
+import dogfight.model.IDogfightModel;
 
 public class DogfightView {
 	
-	public DogfightView(iOrderPerformer orderPerformer, iDoffightModel dogfightModel, Observable observable) {
+	public DogfightView(IOrderPerformer orderPerformer, IDogfightModel dogfightModel, Observable observable) {
 		//void incertain
 	}
 	
