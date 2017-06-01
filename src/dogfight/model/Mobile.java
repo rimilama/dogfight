@@ -8,48 +8,57 @@ public class Mobile {
 	
 	// Ajout variables
 	private int speed;
-
+	private Direction direction;
+	private Position position;
+	private Dimension dimension;
+	private String image;
+	private Image notreImage;
+	
 	// Différentes méthodes
 
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image){
-		
+		this.direction = direction;
+		this.position = position;
+		this.dimension = dimension;
+		this.speed = speed;
+		this.image = image;
 	}
 	
 	
 	public Direction getDirection(){
-		return null;
+		return this.direction;
 	}
 	
 	
 	public void setDirection(Direction direction){
-		
+		this.direction = direction;
 		
 	}
 	
 	
 	public Point getPosition(){
-		return null;
+		return new Point();
 		
 		
 	}
 	
 	
 	public Dimension getDimension(){
-		return null;
+		return this.dimension;
 	}
 	
 	
 	public int getSpeed(){
-		return 1;
+		return this.speed;
 	}
 	
 	
 	public int getWidth(){
-		return 1;
+		return this.dimension.getWidth();
 	}
 	
 	public int getHeight(){
-		return 1;
+		return this.dimension.getHeight();
 	}
 	
 	public void move(){
@@ -96,7 +105,6 @@ public class Mobile {
 	}
 	
 	public void setDogfightModel(IDogfightModel dogfightModel){
-		
 	}
 	
 	public boolean hit(){
@@ -108,7 +116,7 @@ public class Mobile {
 	}
 	
 	public Image getImage(){
-		return null;
+		return this.notreImage;
 		
 	}
 
