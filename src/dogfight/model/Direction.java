@@ -1,4 +1,4 @@
-package model;
+package dogfight.model;
 
 public enum Direction {
 UP,
