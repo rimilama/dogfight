@@ -1,5 +1,8 @@
 package dogfight.model;
 
+import java.awt.Image;
+import java.awt.Point;
+
 public interface IMobile {
 
 	

@@ -1,5 +1,7 @@
 package dogfight.model;
 
+import java.util.ArrayList;
+
 public interface IDogfightModel {
 
 	public IArea getArea();
