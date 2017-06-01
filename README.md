@@ -1,2 +1,2 @@
 # dogfight
-corbeille d'exercie Java
+Corbeille d'exercice Java
