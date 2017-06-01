@@ -12,8 +12,12 @@ public class Missile {
 
 	
 	
+	
 	// Différentes méthodes
 	
+	public Missile(Direction direction, Dimension dimension){
+		dimension = new Dimension(dimension);
+	}
 	
 	
 	public static int getWidthWithADirection(Direction direction){

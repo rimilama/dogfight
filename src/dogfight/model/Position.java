@@ -12,6 +12,16 @@ public class Position {
 	
 	
 	// Différentes méthodes
+	
+	public Position (Position position){
+		Position unePosition;
+		unePosition = new Position(position);
+		
+		return;
+	}
+	
+	
+	
 	public double getX() {
 		return x;
 	}
@@ -37,12 +47,7 @@ public class Position {
 	}
 	
 	
-	public Position (Position position){
-		Position unePosition;
-		unePosition = new Position(position);
-		
-		return;
-	}
+
 	
 	
 	

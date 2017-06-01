@@ -12,6 +12,11 @@ public class Dimension {
 	
 	// Différentes méthodes
 
+	public Dimension(Dimension dimension) {
+		dimension = new Dimension(dimension);
+	}
+	
+	
 	public int getWidth() {
 		width = 1;
 		return width;
@@ -35,9 +40,7 @@ public class Dimension {
 
 	}
 	
-	public Dimension(Dimension dimension) {
-		dimension = new Dimension(dimension);
-	}
+
 	
 
 }
