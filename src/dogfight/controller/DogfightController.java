@@ -1,5 +1,8 @@
 package dogfight.controller;
 
+import dogfight.model.IDogfightModel;
+import dogfight.view.IViewSystem;
+
 public class DogfightController{
 	private final int TIME_SLEEP = 30;
 	
