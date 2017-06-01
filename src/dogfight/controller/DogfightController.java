@@ -1,16 +1,18 @@
 package dogfight.controller;
 
+import dogfight.model.DogfightModel;
 import dogfight.model.IDogfightModel;
+import dogfight.view.DogfightView;
 import dogfight.view.IViewSystem;
 
-public class DogfightController{
+public class DogfightController implements IOrderPerformer{
 	private final int TIME_SLEEP = 30;
 	
-	public DogfightController(IDogfightModel dogfightModel){
+	public DogfightController(DogfightModel dogfightModel){
 		
 	}
 	
-	public void orderPermorm(UserOrder userOrder){
+	public void orderPerform(UserOrder userOrder){
 		
 	}
 	
@@ -18,19 +20,16 @@ public class DogfightController{
 		
 	}
 	
-	public void setViewSystem(IViewSystem viewSystem){
+	public void setViewSystem(DogfightView dogfightView){
 		
 	}
 	
 	private void lauchMissile(int player){
 		
 	}
-	
-	public int getTIME_SLEEP() {
-		return TIME_SLEEP;
-	}
 
 	private void gameLoop(){
 		
 	}
+
 }
