@@ -67,6 +67,7 @@ public class Mobile {
 		return false;
 		
 	}
+	// prends en compte
 	
 	private void moveUp(){
 		
