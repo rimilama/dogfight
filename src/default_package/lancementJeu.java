@@ -1,5 +1,5 @@
 package default_package;
 
-public class ioàpi {
+public static class lancementJeu {
 
 }
